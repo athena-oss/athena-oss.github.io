@@ -1,0 +1,12 @@
+/vendor/
+*.swp
+.iml
+/.idea
+/logs/
+/_site
+/.sass-cache
+/target/
+/node-modules/
+node-modules
+/styleguide
+phpunit-report.xml
