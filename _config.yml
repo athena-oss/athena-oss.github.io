@@ -9,7 +9,7 @@
 title: Athena by OLX
 email: your-email@domain.com
 description: > # this means to ignore newlines until "baseurl:"
-  Athena by OLX. Automate, Automate, Automate!
+  Athena is an automation platform with a plugin architecture that allows you to easily create and share services.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://athena-oss.github.io" # the base hostname & protocol for your site
 twitter_username: jekyllrb

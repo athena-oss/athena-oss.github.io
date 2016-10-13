@@ -1,0 +1,83 @@
+.splash {
+    padding-bottom: 40px;
+    .logo {
+        height: 250px;
+    }
+    .lead {
+        color: #777;
+        font-size: 20px;
+        margin: 35px 0;
+    }
+}
+
+@media (min-width: 1025px) {
+    .splash {
+        .logo {
+            height: 400px;
+        }
+        .lead {
+            font-size: 23px;
+            line-height: 30px;
+        }
+    }
+}
+
+.benefits {
+    background: linear-gradient(#599542, transparent),
+        linear-gradient(-45deg, #98C93C, transparent),
+        linear-gradient(45deg, #599542, transparent);
+    color: #eee;
+    font-size: 16px;
+    padding: 70px 0;
+    p, ul {
+        line-height: 1.9em;
+    }
+    .button {
+        margin-right: 20px;
+    }
+}
+@media (max-width: 1024px) {
+    .benefits {
+        font-size: 14px;
+        padding: 30px 20px;
+        ul {
+            margin-left: 10px;
+        }
+        .button {
+            margin-bottom: 20px;
+        }
+    }
+}
+
+#plugins-widget {
+    height: 100vw;
+    margin: 30px auto 40px;
+    opacity: 0;
+    canvas {
+        left: 0;
+    }
+}
+@media (min-width: 768px) {
+    #plugins-widget {
+        height: 500px;
+    }
+}
+
+.parallax {
+    overflow: hidden;
+}
+
+.parallax_content {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    cursor: pointer;
+    transition: transform 0.5s cubic-bezier(0.215, 0.61, 0.355, 1);
+    transform: perspective(300px) translate3d(0, 0, 0);
+    align-items: center;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+    transform-style: preserve-3d;
+    backface-visibility: hidden;
+}

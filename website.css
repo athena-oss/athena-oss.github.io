@@ -1,0 +1,49 @@
+.main-logo {
+    height: 200px;
+    margin-top: 40px;
+}
+
+.lead {
+    color: #777;
+    font-size: 25px;
+    margin: 40px 0;
+}
+
+.benefits {
+    background: linear-gradient(#599542, transparent),
+        linear-gradient(-45deg, #98C93C, transparent),
+        linear-gradient(45deg, #599542, transparent);
+    color: #eee;
+    font-size: 16px;
+    padding-top: 100px;
+}
+
+.benefits p, .benefits ul {
+    line-height: 1.9em;
+}
+
+#plugins-widget {
+    height: 500px;
+    margin: 30px auto 40px;
+    opacity: 0;
+    width: 500px;
+}
+
+#plugins-widget canvas {
+    left: 0
+}
+
+.parallax_card {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    cursor: pointer;
+    transition: transform 0.5s cubic-bezier(0.215, 0.61, 0.355, 1);
+    transform: perspective(300px) translate3d(0, 0, 0);
+    align-items: center;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+    transform-style: preserve-3d;
+    backface-visibility: hidden;
+}

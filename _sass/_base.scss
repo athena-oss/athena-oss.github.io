@@ -1,40 +1,102 @@
-.athena-super {
-  margin-top: 10%;
-  text-align: center;
-  .athena-super-logo {
-    width: 100%;
-  }
+body,
+html{
+    box-sizing: border-box;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height: 1;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
 
-  .athena-super-title {
-    font-size: 2rem;
-    color: #98c93c;
-    text-transform: uppercase;
-    margin: 0;
-    padding: 0;
-  }
+p {
+    margin-bottom: 15px;
+}
 
-  .athena-super-slogan {
-    font-size: 12px;
-    font-weight:normal;
-    font-style: italic;
-    margin: 0.25rem 0 0 0;
-    padding: 0;
-    color: black;
-  }
+strong {
+    font-weight: 600;
+}
 
-  .athena-super-items {
-    display: block;
-    padding: 0;
-    margin: 0.5rem 0 0 0;
+a {
+    color: #000;
+}
 
-    li {
-      display: inline-block;
-      padding: 0 0.25rem;
-      margin: 0;
+ul {
+    list-style-position: inside;
+    margin-bottom: 20px;
+    margin-left: 30px;
+}
 
-      a {
-        color: #599542;
-      }
+h2 {
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+
+@media (min-width: 1025px) {
+    h2 {
+        font-size: 26px;
+        line-height: 35px;
     }
-  }
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+}
+@media (min-width: 768px) {
+    .container {
+        width: 750px;
+    }
+}
+@media (min-width: 1025px) {
+    .container {
+        width: 1000px;
+    }
+}
+
+footer {
+    background: #599542;
+    color: #eee;
+    font-size: 13px;
+    line-height: 1.5em;
+    padding: 20px;
+}
+@media (min-width: 1025px) {
+    footer {
+        font-size: 16px;
+        padding: 20px 0;
+    }
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.button {
+    border: 1px solid #eee;
+    border-radius: 5px;
+    color: #eee;
+    display: inline-block;
+    padding: 10px 30px;
+    text-decoration: none;
+}
+
+.button:hover {
+    border-color: #fff;
+    color: #fff;
+}
+
+.button-big {
+    border: 1px solid #599542;
+    color: #599542;
+    line-height: 1em;
+    font-size: 18px;
+    padding: 15px 30px;
+}
+
+.button-big:hover {
+    border-color: #333;
+    color: #333;
 }

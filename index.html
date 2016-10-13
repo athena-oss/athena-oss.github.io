@@ -2,13 +2,42 @@
 layout: default
 ---
 
-<main class="l-main athena-super">
-  <img class="athena-super-logo" src="athena-logo.png">
-  <h1 class="athena-super-title">Athena</h1>
-  <h2 class="athena-super-slogan">Automate, Automate, Automate!</h2>
-  <ul class="athena-super-items">
-    <li><a href="https://github.com/athena-oss/athena">Code</a></li>
-    <li><a href="https://athena-oss.github.io/athena">Docs</a></li>
-    <li><a href="https://github.com/athena-oss/">Extensions</a></li>
-  </ul>
-</main>
+<section class="container splash center">
+    <h1><img src="{{ "athena-logo.png" | prepend: site.baseurl }}" alt="Athena logo" class="logo"></h1>
+    <br>
+    <p>
+        <a href="#intro" class="button button-big">Meet the Athena Project</a>
+    </p>
+</section>
+
+<section class="benefits" id="intro">
+    <div class="container">
+        <h2>Athena is an automation platform with a plugin architecture<br>that allows you to easily create and share services.</h2>
+        <p>The key to optimize work is to <em>automate</em> as much as possible.
+            <br>Whether you are developing software, setting up infrastructure or even testing, if there is a chance to do it just take it.</p>
+        <p>Most of the times the boring and frequent tasks can be automated.
+            <br>There are a lot of different tools and technologies that can help you with that,
+            <br> but sometimes starting is simply an hassle by itself and one might end up giving up and doing it <em>&quot;manually&quot;</em>.</p>
+        <p>This is where <strong>Athena</strong> jumps in. The idea is quite simple, we minimize the start process by:</p>
+        <ul>
+            <li>automating the wiring of the dependencies and tools</li>
+            <li>implement a plugin architecture to allow freedom and scalability</li>
+            <li>throw in a wizard that takes care of the boring stuff</li>
+        </ul>
+        <p>Once that part is done, you can reuse it as much as you can and you can even share with other people or teams.</p><br>
+        <p class="center">
+            <a href="#plugins" class="button">Meet the Plugins</a>
+            <a href="https://athena-oss.github.io/athena" class="button">Read the Docs</a>
+            <a href="https://github.com/athena-oss/athena" class="button">Get Athena</a>
+        </p>
+    </div>
+</section>
+
+<section id="plugins">
+    <div class="parallax container">
+        &nbsp;
+        <div class="parallax_content">
+            <div class="center" id="plugins-widget"></div>
+        </div>
+    </div>
+</section>
