@@ -5,9 +5,11 @@ var cytoStyles = [
             'background-color': '#98C93C',
             'content': 'data(name)',
             'color': '#fff',
-            'text-outline-width': 2,
+            'text-outline-width': 1,
             'text-outline-color': '#599542',
-            'text-valign': 'center'
+            'text-valign': 'center',
+			'height' : '60px',
+			'width' : '60px'
         }
     },
     {
@@ -17,7 +19,7 @@ var cytoStyles = [
             'line-color': '#98C93C',
             'segment-distances': '10 -10',
             'segment-weights': '0.25 0.75',
-            'width': 3
+            'width': 5
         }
     },
     {
@@ -32,15 +34,15 @@ var cytoStyles = [
         style: {
             'background-color': '#ffffff',
             'background-image': 'athena-logo-nolabel.png',
-            'background-height': '60px', 
-            'background-width': '60px', 
+            'background-height': '180px',
+            'background-width': '180px',
             'content': false,
-            'height': '60px',
+            'height': '180px',
             'label': false,
             'padding-bottom': '5px',
             'shape': 'roundrectangle',
             'text-outline-color': '#ffffff',
-            'width': '70px'
+            'width': '190px'
         }
     }
 ];
@@ -54,6 +56,8 @@ var cytoElements = [
     { data: { id: 'proxy', name: 'Proxy', href: 'https://github.com/athena-oss/plugin-proxy' } },
     { data: { id: 'bashunit', name: 'bashUnit', href: 'https://github.com/athena-oss/bashunit' } },
     { data: { id: 'bashog', name: 'basHog', href: 'https://github.com/athena-oss/bashog' } },
+    { data: { id: 'php-wd-client', name: 'PHP Fluent WebDriver Client', href: 'https://github.com/athena-oss/php-fluent-webdriver-client' } },
+    { data: { id: 'php-http-client', name: 'PHP Fluent Http Client', href: 'https://github.com/athena-oss/php-fluent-http-client' } },
 
     // edges
     { data: { id: 'edge_php', source: 'php', target: 'athena' }, classes: 'segments' },
@@ -62,7 +66,9 @@ var cytoElements = [
     { data: { id: 'edge_proxy', source: 'proxy', target: 'athena' }, classes: 'segments' },
     { data: { id: 'edge_example', source: 'example', target: 'athena' }, classes: 'segments' },
     { data: { id: 'edge_bashunit', source: 'bashunit', target: 'athena' }, classes: 'segments' },
-    { data: { id: 'edge_bashog', source: 'bashog', target: 'athena' }, classes: 'segments' }
+    { data: { id: 'edge_bashog', source: 'bashog', target: 'athena' }, classes: 'segments' },
+    { data: { id: 'edge_php_wd_client', source: 'php-wd-client', target: 'athena' }, classes: 'segments' },
+    { data: { id: 'edge_php_http_client', source: 'php-http-client', target: 'athena' }, classes: 'segments' }
 ];
 var cytoLayout = {
     name: 'concentric',
