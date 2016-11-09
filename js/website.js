@@ -56,6 +56,7 @@ var cytoElements = [
     { data: { id: 'proxy', name: 'Proxy', href: 'https://github.com/athena-oss/plugin-proxy' } },
     { data: { id: 'bashunit', name: 'bashUnit', href: 'https://github.com/athena-oss/bashunit' } },
     { data: { id: 'bashog', name: 'basHog', href: 'https://github.com/athena-oss/bashog' } },
+    { data: { id: 'bashutils', name: 'bashUtils', href: 'https://github.com/athena-oss/bashutils' } },
     { data: { id: 'php-wd-client', name: 'PHP Fluent WebDriver Client', href: 'https://github.com/athena-oss/php-fluent-webdriver-client' } },
     { data: { id: 'php-http-client', name: 'PHP Fluent Http Client', href: 'https://github.com/athena-oss/php-fluent-http-client' } },
 
@@ -67,6 +68,7 @@ var cytoElements = [
     { data: { id: 'edge_example', source: 'example', target: 'athena' }, classes: 'segments' },
     { data: { id: 'edge_bashunit', source: 'bashunit', target: 'athena' }, classes: 'segments' },
     { data: { id: 'edge_bashog', source: 'bashog', target: 'athena' }, classes: 'segments' },
+    { data: { id: 'edge_bashutils', source: 'bashutils', target: 'athena' }, classes: 'segments' },
     { data: { id: 'edge_php_wd_client', source: 'php-wd-client', target: 'athena' }, classes: 'segments' },
     { data: { id: 'edge_php_http_client', source: 'php-http-client', target: 'athena' }, classes: 'segments' }
 ];
